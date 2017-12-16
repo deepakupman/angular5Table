@@ -1,0 +1,24 @@
+<h1>{{title}}</h1>
+<table border ="1">
+  <thead>
+    <tr>
+      <th *ngFor='let header of headers'>
+        {{ header }} 
+        <a (click)="removeCol(header)" >&#10006;</a>
+      </th>
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor='let book of books'>
+    <td [hidden]="displayColumn.title"> {{book.title}}</td>
+    <td [hidden]="displayColumn.author" >{{book.author}}</td>
+    <td [hidden]="displayColumn.ISBN" >{{book.ISBN}}</td>
+    <td [hidden]="displayColumn.PublicationDate" >{{book.PublicationDate}}</td>
+    <td [hidden]="displayColumn.Publisher" >{{book.Publisher}}</td>
+    <td [hidden]="displayColumn.Price" >{{book.Price}}</td>
+    <td [hidden]="displayColumn.Genre" >{{book.Genre}}</td>
+    <td [hidden]="displayColumn.Format" >{{book.Format}}</td>
+  </tr>
+</tbody>
+
+</table>
