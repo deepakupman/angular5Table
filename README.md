@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RandomColumn
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.1.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# angular5Table
+Simple Angualr 5 Table with varying columns 
+>>>>>>> a17b34eb43af44cf5a68b6f71ac19db9a1f79664
